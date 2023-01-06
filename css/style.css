@@ -175,15 +175,15 @@ font-family: 'Roboto', sans-serif; */
     border-radius: 5px;
 }
 
-.color-f{
+.color-f {
     background-color: #4F9DA61A;
 }
 
-.color-s{
+.color-s {
     background-color: #FF59591A;
 }
 
-.color-e{
+.color-e {
     background-color: #FFF4D6;
 }
 
@@ -198,7 +198,7 @@ font-family: 'Roboto', sans-serif; */
     font-size: 24px;
     color: #121212;
     margin-bottom: 16px;
-    
+
 }
 
 .plan-card p {
@@ -208,3 +208,62 @@ font-family: 'Roboto', sans-serif; */
     line-height: 24px;
     color: #707070;
 }
+
+/* blog */
+
+.blog {
+    width: 1130px;
+    margin: 0px auto;
+    padding: 130px 0px;
+}
+
+.blog-content {
+    display: flex;
+}
+
+.blog-content:last-child {
+    margin-top: 100px;
+}
+
+.blog-text {
+    margin-top: 78px;
+}
+
+.blog-text:first-child {
+    margin-right: 98px;
+}
+
+.blog-text:last-child {
+    margin-left: 98px;
+}
+
+.blog-text h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    padding-right: 78px;
+    color: #121212;
+}
+
+
+.blog-text p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.blog-text button {
+  margin-top: 30px;
+}
+
+.blog-img {}
+
+.blog-img img {
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 7px rgb(206 205 205 / 65%);
+}
+

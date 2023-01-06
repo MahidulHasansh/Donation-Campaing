@@ -255,7 +255,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .blog-text button {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .blog-img {}
@@ -267,3 +267,93 @@ font-family: 'Roboto', sans-serif; */
     box-shadow: 0px 0px 20px 7px rgb(206 205 205 / 65%);
 }
 
+
+/* get update */
+
+.get-update {
+    width: 810px;
+    margin: 0px auto;
+    margin-bottom: 103px;
+}
+
+.update-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.update-title h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.update-title p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0px 80px;
+    color: #808080;
+}
+
+.form-box {
+    background: #FFF4D6;
+    padding: 76px 188px;
+    text-align: center;
+}
+
+.update-form {}
+
+.update-form input {
+    width: 275px;
+    padding: 14px 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #AA9F9F;
+    border: none;
+    background: #D9D9D9;
+    /* i explore it now */
+    border-radius: 5px 0px 0px 5px;
+}
+
+.update-form button{
+    cursor: pointer;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 14px 42px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+
+
+/* footer */
+.main-foot {
+    background-color: #0B0D17;
+    color: white;
+    padding: 43px 0px;
+    text-align: center;
+}
+
+.main-foot h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    margin-bottom: 24px;
+}
+
+.main-foot p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+}
